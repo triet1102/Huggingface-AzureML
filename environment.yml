@@ -1,0 +1,16 @@
+name: venv
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6.2
+  - pytorch
+  - torchvision
+  - pip:
+    - azureml
+    - datasets
+    - torch
+    - tqdm
+    - transformers
+prefix: /anaconda/envs/venv

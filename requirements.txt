@@ -1,0 +1,6 @@
+azureml==0.2.7
+azureml_core==1.40.0
+datasets==2.0.0
+torch==1.11.0
+tqdm==4.63.1
+transformers==4.17.0
